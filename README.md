@@ -1,3 +1,3 @@
 # cgm-site
 
-School site of CGM School
+School site
