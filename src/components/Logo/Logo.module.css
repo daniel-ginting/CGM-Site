@@ -1,0 +1,29 @@
+.Logo {
+    font-family: 'Redressed', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: var(--color-purple);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.first-line {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.second-line {
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+    color: var(--color-green);
+}
