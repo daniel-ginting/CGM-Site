@@ -9,4 +9,4 @@ const StudentsPage = () => {
     );
 };
 
-export  default StudentsPage;
+export default StudentsPage;
