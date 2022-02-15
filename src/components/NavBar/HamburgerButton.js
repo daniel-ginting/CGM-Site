@@ -2,6 +2,7 @@ import * as React from "react";
 import * as classes from "./NavBar.module.css";
 
 const HamburgerButton = ({ hamburgerButtonClick, isMobNavOpen }) => {
+    // Computed style css classes based on weather isMobNavOpen is true or false
     const div1Css = [
         classes.hamburgerButtonDiv,
         isMobNavOpen ? classes.hamburgerButtonDiv1 : ""
