@@ -1,0 +1,21 @@
+.toTopButton {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    background-color: var(--color-green);
+    color: var(--color-purple);
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: fixed;
+    z-index: 800;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+}
+
+.toTopButton:hover {
+    background-color: var(--color-white);
+}
